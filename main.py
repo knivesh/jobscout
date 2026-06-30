@@ -20,7 +20,7 @@ def main():
     for company in COMPANIES:
         platform = PLATFORMS[company["platform"]]
         jobs = platform.fetch(company)
-        path = save_raw(company["name"], jobs, run_ts)
+        path = save_raw(company["name"], jobs, run_ts, company["platform"])
         print(f"{company['name']}: {len(jobs)} jobs -> {path}")
 
 
