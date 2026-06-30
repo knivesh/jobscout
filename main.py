@@ -6,6 +6,8 @@ COMPANIES = [
     {"name": "ABN AMRO", "base_url": "https://www.werkenbijabnamro.nl/en", "platform": "getnoticed"},
     {"name": "BDO", "base_url": "https://www.werkenbijbdo.nl", "platform": "getnoticed"},
     {"name": "Randstad", "base_url": "https://www.werkenbijrandstad.nl", "platform": "getnoticed"},
+    {"name": "Adyen", "token": "adyen", "platform": "greenhouse"},
+    {"name": "Databricks", "token": "databricks", "platform": "greenhouse"},
 ]
 
 
